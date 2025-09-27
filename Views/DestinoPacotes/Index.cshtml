@@ -1,0 +1,42 @@
+@model IEnumerable<lohran_mendes_DR4_AT_S2.Models.DestinosPacotes>
+
+@{
+    ViewData["Title"] = "Cadastro de Destinos em Pacotes Turísticos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cadastro de Destinos em Pacotes Turísticos</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID - @Html.DisplayNameFor(model => model.Destino)
+            </th>
+            <th>
+               ID - @Html.DisplayNameFor(model => model.PacoteTuristico)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destino.Id) - @Html.DisplayFor(modelItem => item.Destino.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PacoteTuristico.Id) - @Html.DisplayFor(modelItem => item.PacoteTuristico.Titulo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
