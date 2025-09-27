@@ -10,16 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/DestinosPacotes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Contexto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Contexto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Cliente.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Destino.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Destino.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PacoteTuristico.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PacoteTuristico.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Reserva.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Reserva.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +42,22 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a0b45f29f34f594814a7b1fbc25fe5ef3c18257956ed4f4fbfa68717db58/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/DestinoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ReservaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/DAL/Contexto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL/Contexto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Delegates/Exercicio_1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Cliente.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Destino.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Destino.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/DestinosPacotes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/PacoteTuristico.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/PacoteTuristico.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Reserva.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Reserva.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -147,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1758985641888</updated>
       <workItem from="1758985643244" duration="392000" />
-      <workItem from="1758992419334" duration="4995000" />
+      <workItem from="1758992419334" duration="8665000" />
+      <workItem from="1759001528336" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
       <option name="closed" value="true" />
@@ -165,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758992039736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: remove redundant [Key] attributes and update model relationships; add DestinosPacotes model and adjust DbContext">
+      <option name="closed" value="true" />
+      <created>1758997496910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758997496910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +188,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva" />
     <MESSAGE value="add DbContext and update model classes with connection strings and data annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DbContext and update model classes with connection strings and data annotations" />
+    <MESSAGE value="refactor: remove redundant [Key] attributes and update model relationships; add DestinosPacotes model and adjust DbContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove redundant [Key] attributes and update model relationships; add DestinosPacotes model and adjust DbContext" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

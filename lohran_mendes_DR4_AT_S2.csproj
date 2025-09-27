@@ -41,6 +41,7 @@
 
     <ItemGroup>
       <Folder Include="DATABASE\" />
+      <Folder Include="Delegates\" />
       <Folder Include="Migrations\" />
     </ItemGroup>
 
