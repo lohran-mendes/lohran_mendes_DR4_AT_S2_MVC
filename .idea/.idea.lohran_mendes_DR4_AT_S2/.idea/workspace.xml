@@ -10,13 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/CidadeDestino.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Cliente.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/PacoteTurismo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/PaisDestino.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Reserva.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Contexto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lohran-mendes"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lohran-mendes/lohran_mendes_DR4_AT_S2_MVC.git",
+    "accountId": "24122ae8-0fb1-45f8-add9-2259baac9f4e"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a0b45f29f34f594814a7b1fbc25fe5ef3c18257956ed4f4fbfa68717db58/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/CidadeDestino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL/Contexto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/PacoteTurismo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/PaisDestino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PacoteTuristico.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Reserva.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2_MVC/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2_MVC/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -132,6 +140,15 @@
       <updated>1758985641888</updated>
       <workItem from="1758985643244" duration="392000" />
     </task>
+    <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
+      <option name="closed" value="true" />
+      <created>1758991640865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758991640865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +158,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
