@@ -10,15 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/ViewNotesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Anotacao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/ViewNotes/Index.chstml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/ViewNotes/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/ViewNotesModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delegates/Exercicio_02.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Delegates/Exercicio_02.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ViewNotesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ViewNotesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Anotacao.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ViewNotes/Index.chstml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ViewNotes/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ViewNotes/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +45,21 @@
     <setting file="file://$PROJECT_DIR$/Controllers/DestinoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/PacoteTuristicoController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ReservaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/ViewNotesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ViewNotesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL/Contexto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Anotacao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Delegates/Exercicio_02.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/DestinosPacotes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/PacoteTuristico.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/PacoteTuristico.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Reserva.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ViewNotesModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/ViewNotes/Index.chstml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/ViewNotes/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -204,7 +205,7 @@
       <workItem from="1758992419334" duration="8665000" />
       <workItem from="1759001528336" duration="1029000" />
       <workItem from="1759038190804" duration="323000" />
-      <workItem from="1759149832204" duration="6273000" />
+      <workItem from="1759149832204" duration="6965000" />
     </task>
     <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
       <option name="closed" value="true" />
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759154305233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add ViewNotes feature with model and controller for managing annotations">
+      <option name="closed" value="true" />
+      <created>1759156420946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759156420946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +270,8 @@
     <MESSAGE value="refactor: remove redundant [Key] attributes and update model relationships; add DestinosPacotes model and adjust DbContext" />
     <MESSAGE value="chore: update project structure by adding Delegates folder and modifying indexLayout.xml" />
     <MESSAGE value="feat: add delegates for pricing calculations and logging actions in new exercise classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add delegates for pricing calculations and logging actions in new exercise classes" />
+    <MESSAGE value="feat: add ViewNotes feature with model and controller for managing annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add ViewNotes feature with model and controller for managing annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

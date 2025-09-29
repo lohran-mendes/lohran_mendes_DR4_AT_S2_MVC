@@ -42,6 +42,7 @@
     <ItemGroup>
       <Folder Include="DATABASE\" />
       <Folder Include="Migrations\" />
+      <Folder Include="wwwroot\files\" />
     </ItemGroup>
 
     <ItemGroup>

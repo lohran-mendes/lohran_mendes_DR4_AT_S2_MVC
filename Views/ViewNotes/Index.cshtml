@@ -1,4 +1,4 @@
-﻿@model ViewNotesModel
+﻿@model lohran_mendes_DR4_AT_S2.Views.ViewNotes.ViewNotesModel
 
 @{
     ViewData["Title"] = "View Notes";
@@ -21,4 +21,24 @@
     <button type="submit" class="btn btn-primary mt-2">Salvar</button>
 </form>
 
-
+@if (Model.Anotacoes.Count > 0)
+{
+    <h3 class="mt-5">Anotações Salvas</h3>
+    <table class="table table-bordered mt-2">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Anotação</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var anotacao in Model.Anotacoes)
+        {
+            <tr>
+                <td>@anotacao.Titulo</td>
+                <td>@anotacao.Descricao</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
