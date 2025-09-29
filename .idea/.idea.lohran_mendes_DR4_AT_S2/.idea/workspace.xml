@@ -10,16 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Delegates/Exercicio_01.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegates/Exercicio_02.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegates/Exercicio_03.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delegates/Exercicio_04.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/ViewNotesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Anotacao.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/ViewNotes/Index.chstml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/ViewNotes/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/PacoteTuristicoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PacoteTuristicoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PacoteTuristico.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PacoteTuristico.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delegates/Exercicio_02.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Delegates/Exercicio_02.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +46,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a0b45f29f34f594814a7b1fbc25fe5ef3c18257956ed4f4fbfa68717db58/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/DestinoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/PacoteTuristicoController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ReservaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/DAL/Contexto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ViewNotesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL/Contexto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Delegates/Exercicio_1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Anotacao.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Cliente.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Destino.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Destino.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/DestinosPacotes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/PacoteTuristico.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/PacoteTuristico.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Reserva.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Reserva.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/ViewNotes/Index.chstml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
@@ -83,6 +78,8 @@
   "keyToString": {
     ".NET Launch Settings Profile.lohran_mendes_DR4_AT_S2: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.lohran_mendes_DR4_AT_S2: http.executor": "Run",
+    ".NET Launch Settings Profile.lohran_mendes_DR4_AT_S2: https.executor": "Run",
+    ".NET Static Method.lohran_mendes_DR4_AT_S2.Delegates.Exercicio_02.Executar.executor": "Run",
     ".NET Static Method.lohran_mendes_DR4_AT_S2.Delegates.Exercicio_04.Executar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,7 +95,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Static Method.lohran_mendes_DR4_AT_S2.Delegates.Exercicio_04.Executar">
+  <component name="RunManager" selected=".NET Launch Settings Profile.lohran_mendes_DR4_AT_S2: http">
+    <configuration name="lohran_mendes_DR4_AT_S2.Delegates.Exercicio_02.Executar" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="C:\Program Files\JetBrains\JetBrains Rider 2025.1.3\lib\ReSharperHost\JetLauncherILc.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lohran_mendes_DR4_AT_S2.csproj" />
+      <option name="PROJECT_TFM" value="net8.0" />
+      <option name="CLASS_NAME" value="lohran_mendes_DR4_AT_S2.Delegates.Exercicio_02" />
+      <option name="METHOD_NAME" value="Executar" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="lohran_mendes_DR4_AT_S2.Delegates.Exercicio_04.Executar" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
       <option name="EXE_PATH" value="C:\Program Files\JetBrains\JetBrains Rider 2025.1.3\lib\ReSharperHost\JetLauncherILc.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -170,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Static Method.lohran_mendes_DR4_AT_S2.Delegates.Exercicio_02.Executar" />
         <item itemvalue=".NET Static Method.lohran_mendes_DR4_AT_S2.Delegates.Exercicio_04.Executar" />
       </list>
     </recent_temporary>
@@ -185,7 +204,7 @@
       <workItem from="1758992419334" duration="8665000" />
       <workItem from="1759001528336" duration="1029000" />
       <workItem from="1759038190804" duration="323000" />
-      <workItem from="1759149832204" duration="4339000" />
+      <workItem from="1759149832204" duration="6273000" />
     </task>
     <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
       <option name="closed" value="true" />
@@ -219,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759002559378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add delegates for pricing calculations and logging actions in new exercise classes">
+      <option name="closed" value="true" />
+      <created>1759154305233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759154305233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +260,8 @@
     <MESSAGE value="add DbContext and update model classes with connection strings and data annotations" />
     <MESSAGE value="refactor: remove redundant [Key] attributes and update model relationships; add DestinosPacotes model and adjust DbContext" />
     <MESSAGE value="chore: update project structure by adding Delegates folder and modifying indexLayout.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update project structure by adding Delegates folder and modifying indexLayout.xml" />
+    <MESSAGE value="feat: add delegates for pricing calculations and logging actions in new exercise classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add delegates for pricing calculations and logging actions in new exercise classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

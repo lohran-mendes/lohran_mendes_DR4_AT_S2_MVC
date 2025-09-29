@@ -7,8 +7,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Exercicio_02.AplicarAction("Iniciando a aplicação...");
-        
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.

@@ -4,23 +4,28 @@ public delegate string ActionsDelegate();
 
 public class Exercicio_02
 {
-    public static void LogToConsole(string message)
+    public static void Executar()
+    {
+        Exercicio_02.AplicarAction("Testando a aplicação...");
+    }
+
+    private static void LogToConsole(string message)
     {
         Console.WriteLine("Log to Console: " + message);
     }
 
-    public static void LogToFile(string message)
+    private static void LogToFile(string message)
     {
         Console.WriteLine("Log to File: " + message);
     }
 
-    public static void LogToMemory(string message)
+    private static void LogToMemory(string message)
     {
         Console.WriteLine("Log to Memory: " + message);
     }
 
 
-    public static void AplicarAction(string message)
+    private static void AplicarAction(string message)
     {
         Action<string> logAction;
         
