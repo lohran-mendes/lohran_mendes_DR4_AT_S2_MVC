@@ -1,3 +1,4 @@
+using lohran_mendes_DR4_AT_S2.Delegates;
 using Microsoft.EntityFrameworkCore;
 
 namespace lohran_mendes_DR4_AT_S2;
@@ -6,6 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Exercicio_02.AplicarAction("Iniciando a aplicação...");
+        
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.

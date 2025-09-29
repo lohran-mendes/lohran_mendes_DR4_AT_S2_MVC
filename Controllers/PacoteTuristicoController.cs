@@ -56,8 +56,15 @@ namespace lohran_mendes_DR4_AT_S2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Titulo,DataInicio,CapacidadeMaxima,Preco")] PacoteTuristico pacoteTuristico)
         {
+            
+                
             if (ModelState.IsValid)
             {
+                // como pedido no exercicio 1, aplicando o delegate para dar um desconto de 10% no preço do pacote turístico
+                decimal DescontoDezPorCento(decimal preco) => preco * 0.9m;
+                CalculateDelegate descontoDezPorCento = DescontoDezPorCento;
+                
+                pacoteTuristico.Preco = pacoteTuristico.PrecoComDesconto(descontoDezPorCento);
                 _context.Add(pacoteTuristico);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
