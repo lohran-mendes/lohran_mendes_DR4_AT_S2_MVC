@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATABASE/ASSESSMENT.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +39,16 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a0b45f29f34f594814a7b1fbc25fe5ef3c18257956ed4f4fbfa68717db58/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Authetication/Exercicio_12.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/DestinoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/PacoteTuristicoController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ReservaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/ViewNotesController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Controllers/ViewNotesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ViewNotesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL/Contexto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Delegates/Exercicio_02.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Cliente.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/Destino.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Destino.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/DestinosPacotes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Models/PacoteTuristico.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/PacoteTuristico.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Reserva.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/ViewNotes/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Asus/Desktop/AT_C#/lohran_mendes_DR4_AT_S2/Views/ViewNotes/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/ViewNotes/ViewNotesModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -205,7 +197,7 @@
       <workItem from="1759001528336" duration="1029000" />
       <workItem from="1759038190804" duration="323000" />
       <workItem from="1759149832204" duration="7411000" />
-      <workItem from="1759191665215" duration="289000" />
+      <workItem from="1759191665215" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
       <option name="closed" value="true" />
@@ -271,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759157276412</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add validation attributes for Cliente and Destino models">
+      <option name="closed" value="true" />
+      <created>1759192231842</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759192231842</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +289,8 @@
     <MESSAGE value="feat: add ViewNotes feature with model and controller for managing annotations" />
     <MESSAGE value="feat: implement ViewNotes functionality with model, controller, and file storage for annotations" />
     <MESSAGE value="feat: add Exercicio_12 class for authentication implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Exercicio_12 class for authentication implementation" />
+    <MESSAGE value="feat: add validation attributes for Cliente and Destino models" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add validation attributes for Cliente and Destino models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
