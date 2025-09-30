@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34075dc-c083-442c-8513-992ed5c7c09b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Authetication/Exercicio_12.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lohran_mendes_DR4_AT_S2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -203,7 +204,8 @@
       <workItem from="1758992419334" duration="8665000" />
       <workItem from="1759001528336" duration="1029000" />
       <workItem from="1759038190804" duration="323000" />
-      <workItem from="1759149832204" duration="7397000" />
+      <workItem from="1759149832204" duration="7411000" />
+      <workItem from="1759191665215" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="add initial model classes for Cliente, Destino, PacoteTuristico, and Reserva">
       <option name="closed" value="true" />
@@ -261,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759157071988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add Exercicio_12 class for authentication implementation">
+      <option name="closed" value="true" />
+      <created>1759157276412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759157276412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +288,8 @@
     <MESSAGE value="feat: add delegates for pricing calculations and logging actions in new exercise classes" />
     <MESSAGE value="feat: add ViewNotes feature with model and controller for managing annotations" />
     <MESSAGE value="feat: implement ViewNotes functionality with model, controller, and file storage for annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement ViewNotes functionality with model, controller, and file storage for annotations" />
+    <MESSAGE value="feat: add Exercicio_12 class for authentication implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Exercicio_12 class for authentication implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
